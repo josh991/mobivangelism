@@ -72,6 +72,8 @@
 			// Spaces between the underscores makes for a better experience for the user.
 			$_SESSION["word"] = join(str_split($_SESSION["word"]), " ");
 
+			self::inProgress();
+
 		}
 
 		private static function inProgress(){			
